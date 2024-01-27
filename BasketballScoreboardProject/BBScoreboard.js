@@ -88,8 +88,9 @@ function resetCountdown() {
 //clear
 
 function clearBoard() {
-  count1.innerText = `00`;
-  count2.innerText = `00`;
+  (score1 = 0), (score2 = 0);
+  count1.innerText = pad(score1, 2);
+  count2.innerText = pad(score2, 2);
   resetCountdown();
   quarterVal = 1;
   quarterEl.innerText = 1;
