@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="BBScoreboard.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="homeandguest">
+        <h3>HOME</h3>
+        <p class="score" id="score1">0</p>
+        <div class="pointButtons">
+          <button onclick="addOneHome()" class="button" id="hOne">+1</button>
+          <button onclick="addTwoHome()" class="button" id="hTwo">+2</button>
+          <button onclick="addThreeHome()" class="button" id="hThree">
+            +3
+          </button>
+        </div>
+      </div>
+      <div class="center">
+        <div class="quarter">
+          <p id="q">Q: 0</p>
+          <p id="quarterText">1</p>
+        </div>
+        <div class="countdown">
+          <p id="countText">12:00</p>
+          <button onclick="resetCountdown()" id="timerReset">reset</button>
+        </div>
+        <div class="newquarter-clear-start-stop">
+          <button onclick="startInt(), updateCountdown()" id="start">
+            start
+          </button>
+          <button onclick="clearInterval(interval)" id="stop">stop</button>
+          <button onclick="quarterIn()" id="newquarter">quarter</button>
+          <button onclick="clearBoard()" id="clear">clear</button>
+        </div>
+      </div>
+      <div class="homeandguest">
+        <h3>GUEST</h3>
+        <p class="score" id="score2">0</p>
+        <div class="pointButtons">
+          <button onclick="addOneGuest()" class="button" id="gOne">+1</button>
+          <button onclick="addTwoGuest()" class="button" id="gTwo">+2</button>
+          <button onclick="addThreeGuest()" class="button" id="gThree">
+            +3
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="BBScoreboard.js"></script>
+  </body>
+</html>

@@ -1,0 +1,152 @@
+@font-face {
+  font-family: Cursed Timer;
+  src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  padding: auto auto auto auto;
+  justify-content: space-around;
+  background-color: #1b244a;
+  width: 575px;
+  height: 385px;
+  border: white 20px double;
+  border-radius: 15px;
+}
+
+h3 {
+  font-family: Verdana;
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.homeandguest {
+  display: flex;
+  flex-direction: column;
+}
+
+.score {
+  margin: auto auto auto auto;
+  padding: 22px 12px 8px 12px;
+  font-family: Cursed Timer;
+  color: #f94f6d;
+  font-size: 90px;
+  font-weight: 400;
+  background-color: black;
+  border: black solid 5px;
+  border-radius: 5px;
+}
+
+.pointButtons {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 60px 0;
+}
+
+.button {
+  background-color: #1b244a;
+  color: #9aabd8;
+  border-radius: 5px;
+  border: #9aabd8 solid 1px;
+  padding: 8px;
+  margin: 5px;
+}
+
+.countdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px 0 0 0;
+}
+
+#countText {
+  margin: auto 10px auto auto;
+  padding: 5px;
+  font-family: Cursed Timer;
+  font-size: 30px;
+  color: orange;
+  background-color: black;
+  border: black solid 5px;
+  border-radius: 5px;
+  padding-right: 10px;
+}
+
+#timerReset {
+  margin: auto auto auto 10px;
+  padding: 8px;
+  font-family: Verdana;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #1b244a;
+  color: #9aabd8;
+  border-radius: 5px;
+  border: #9aabd8 solid 1px;
+}
+
+.quarter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 80px auto auto auto;
+  padding: 0px 22px 0px 22px;
+  font-family: Cursed Timer;
+  font-size: 16px;
+  color: orange;
+  background-color: black;
+  border: black solid 5px;
+  border-radius: 5px;
+}
+
+.newquarter-clear-start-stop {
+  font-family: Verdana;
+  color: #1b244a;
+  margin: 30px auto auto auto;
+}
+
+#start {
+  color: #1b244a;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0px 8px 0px 8px;
+  border: 5px #9aabd8;
+  background-color: #9aabd8;
+  border-radius: 3px;
+}
+
+#newquarter {
+  color: #1b244a;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0px 8px 0px 8px;
+  border: 5px #9aabd8;
+  background-color: #9aabd8;
+  border-radius: 3px;
+}
+
+#clear {
+  color: #1b244a;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0px 8px 0px 8px;
+  border: 5px #9aabd8;
+  background-color: #9aabd8;
+  border-radius: 3px;
+}
+
+#stop {
+  color: #1b244a;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0px 8px 0px 8px;
+  border: 5px #9aabd8;
+  background-color: #9aabd8;
+  border-radius: 3px;
+}
